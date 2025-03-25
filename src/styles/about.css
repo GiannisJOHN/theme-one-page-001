@@ -1,4 +1,4 @@
-.about-grid-2-column {
+.about-grid-2-columns {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
@@ -18,7 +18,7 @@
 }
 
 @media (max-width: 800px) {
-    .about-grid-2-column {
+    .about-grid-2-columns {
         grid-template-columns: 1fr;
     }
 }
