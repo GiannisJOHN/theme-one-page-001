@@ -1,0 +1,28 @@
+---
+import '../styles/system-design.css';
+import '../styles/index.css';
+import '../styles/navbar.css';
+import '../styles/hero.css';
+import '../styles/about.css';
+import '../styles/services.css';
+
+
+import Navbar from '../sections/navbar.astro';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Astro</title>
+	</head>
+	<body>
+		<Navbar />
+		<slot />
+		<!-- Add Footer -->
+		
+	</body>
+</html>

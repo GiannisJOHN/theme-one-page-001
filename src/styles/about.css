@@ -1,0 +1,24 @@
+.about-grid-2-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.about-title {
+    margin-top: 8px;
+    margin-bottom: 32px
+}
+
+.about-image {
+    width: 100%
+}
+
+.about-subtitle {
+    color: var(--accent-color);
+}
+
+@media (max-width: 800px) {
+    .about-grid-2-column {
+        grid-template-columns: 1fr;
+    }
+}
