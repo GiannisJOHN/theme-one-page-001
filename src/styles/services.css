@@ -9,6 +9,18 @@
     margin-top: 40px;
 }
 
+@media (max-width: 960px) {
+    .services-grid-3-columns {
+        grid-template-columns: repeat(2, 1fr);      
+    }
+}
+
+@media (max-width: 540px) {
+    .services-grid-3-columns {
+        grid-template-columns: repeat(1, 1fr);      
+    }
+}
+
 /*card*/
 
 .services-card {

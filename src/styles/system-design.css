@@ -12,13 +12,13 @@
 
 .hero-title {
     font-size: 75px;
-    font-weight: 700px;
+    font-weight: 700;
     line-height: 82px;
 }
 
 .section-title {
     font-size: 38px;
-    font-weight: 700px;
+    font-weight: 700;
     line-height: 55px;
 }
 
@@ -30,7 +30,7 @@
 
 .subtitle {
     font-size: 22px;
-    font-weight: 700px;
+    font-weight: 700;
     line-height: 26px;
 }
 
