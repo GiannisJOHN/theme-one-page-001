@@ -1,0 +1,18 @@
+---
+import testimonialsData from '../data/testimonials.json';
+import TestimonialsCard from '../components/testimonials-card.astro';
+
+---
+
+<section id="testimonials-section" class="testimonials-section section side-padding section-vertical-spacing">
+    <div class="container">
+        <h2 class="section-title u-text-center">Testimonials</h2>
+        <div class="testimonials-grid-2-columns">
+            {
+                testimonialsData.map((each) => {
+                    return <TestimonialsCard name={each.name} jobTitle={each.jobTitle} description={each.description} />
+                })
+            }
+        </div>
+    </div>
+</section>

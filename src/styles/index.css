@@ -66,3 +66,7 @@ ol {
 .u-text-center {
     text-align: center;
 }
+
+.u-text-italic {
+    font-style: italic;
+}
