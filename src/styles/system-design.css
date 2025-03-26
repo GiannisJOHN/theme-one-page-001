@@ -5,8 +5,10 @@
 
     /*Typography */
     --font-family: "Poppins", sans-serif;
+    --accent-color: rgb(65, 114, 189);
     --accent-color: rgb(198, 20, 23);
     --grey-background: #f8f8f8;
+    --grey-text: rgb(128, 128, 128);
 
 }
 

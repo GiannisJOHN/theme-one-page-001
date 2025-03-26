@@ -18,7 +18,7 @@
 
 .testimonials-card::after {
     content: '\201C';
-    font-size: 180px;  /* Adjust the size if needed */
+    font-size: 160px;  /* Adjust the size if needed */
     color: var(--accent-color);
     position: absolute;
     top: -40px;

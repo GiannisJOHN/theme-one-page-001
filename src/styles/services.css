@@ -28,7 +28,7 @@
     padding: 28px;
     border-radius: 12px;
     box-sizing: content-box;
-    border-bottom: 12px solid var(--accent-color);
+    /*border-bottom: 4px solid var(--accent-color);*/
     transition: 0.4s;
 }
 
