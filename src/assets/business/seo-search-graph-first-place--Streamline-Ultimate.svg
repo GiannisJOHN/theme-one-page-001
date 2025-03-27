@@ -1,0 +1,20 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_864_4375)">
+<path d="M1 38.1807H21" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7 38.1807H1V11.1807C1 10.9154 1.10536 10.6611 1.29289 10.4736C1.48043 10.286 1.73478 10.1807 2 10.1807H6C6.26522 10.1807 6.51957 10.286 6.70711 10.4736C6.89464 10.6611 7 10.9154 7 11.1807V38.1807Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M32 31.1807L35 29.1807V37.1807" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M1.20001 2.54004L2.38001 5.12004" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M7.88001 1.82001L6.82001 4.64001" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M12.44 6.73999L9.88 7.91999" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M25 33.6807C25 36.2002 26.0009 38.6166 27.7825 40.3982C29.5641 42.1798 31.9804 43.1807 34.5 43.1807C37.0196 43.1807 39.4359 42.1798 41.2175 40.3982C42.9991 38.6166 44 36.2002 44 33.6807C44 31.1611 42.9991 28.7447 41.2175 26.9632C39.4359 25.1816 37.0196 24.1807 34.5 24.1807C31.9804 24.1807 29.5641 25.1816 27.7825 26.9632C26.0009 28.7447 25 31.1611 25 33.6807Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M47 46.1807L41.22 40.3807" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M33 37.1807H37" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M17 38.1807H11V16.1807C11 15.9154 11.1054 15.6611 11.2929 15.4736C11.4804 15.286 11.7348 15.1807 12 15.1807H16C16.2652 15.1807 16.5196 15.286 16.7071 15.4736C16.8946 15.6611 17 15.9154 17 16.1807V38.1807Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M21 38.1807V21.1807C21 20.9154 21.1054 20.6611 21.2929 20.4736C21.4804 20.286 21.7348 20.1807 22 20.1807H26C26.2652 20.1807 26.5196 20.286 26.7071 20.4736C26.8946 20.6611 27 20.9154 27 21.1807V22.1807" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_864_4375">
+<rect width="48" height="48" fill="white"/>
+</clipPath>
+</defs>
+</svg>

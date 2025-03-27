@@ -4,6 +4,11 @@
     gap: 30px;
 }
 
+.about-grid-2-columns p {
+    color: rgb(106, 106, 106);
+
+}
+
 .about-title {
     margin-top: 8px;
     margin-bottom: 32px
@@ -22,3 +27,8 @@
         grid-template-columns: 1fr;
     }
 }
+
+.about-social-container {
+    margin-top: 80px;
+}
+

@@ -25,12 +25,25 @@
 
 .services-card {
     background-color: white;
-    padding: 28px;
+    padding: 34px;
     border-radius: 12px;
     box-sizing: content-box;
-    /*border-bottom: 4px solid var(--accent-color);*/
     transition: 0.4s;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
 }
+
+.services-card svg path {
+    stroke: var(--accent-color);
+}
+
+.services-card svg {
+    width: 40px !important;
+    height: 40px !important;
+}
+
 
 .services-card:hover {
     background-color: rgb(55, 55, 55);
@@ -41,4 +54,9 @@
     display: flex;
     flex-direction: column;
     gap: 12px;
+}
+
+.services-card-info p {
+    color: rgb(106, 106, 106);
+
 }

@@ -4,24 +4,25 @@
 
 .testimonials-grid-2-columns {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
     margin-top: 40px;
 }
 
 .testimonials-card {
     background-color: white;
-    padding: 32px;
+    padding: 34px;
     border-radius: 12px;
     position: relative;
+    
 }
 
 .testimonials-card::after {
     content: '\201C';
-    font-size: 160px;  /* Adjust the size if needed */
+    font-size: 120px;  /* Adjust the size if needed */
     color: var(--accent-color);
     position: absolute;
-    top: -40px;
+    top: -24px;
     right: 22px;
     display: inline;
     line-height: 1;
@@ -32,4 +33,8 @@
     margin-top: 8px;
     margin-bottom: 12px;
     color: var(--accent-color);
+}
+
+.testimonials-card-info p {
+    color: rgb(106, 106, 106);
 }

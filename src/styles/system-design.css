@@ -5,10 +5,12 @@
 
     /*Typography */
     --font-family: "Poppins", sans-serif;
-    --accent-color: rgb(65, 114, 189);
+    --accent-color: rgb(234, 187, 0);
+    --accent-color: rgb(245, 3, 85);
     --accent-color: rgb(198, 20, 23);
     --grey-background: #f8f8f8;
     --grey-text: rgb(128, 128, 128);
+    --text-color-black: rgb(22, 22, 22);
 
 }
 
@@ -41,3 +43,4 @@
     font-weight: 600;
     line-height: 24px;
 }
+

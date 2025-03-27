@@ -43,8 +43,8 @@ ol {
 }
 
 .section-vertical-spacing {
-    padding-top: 124px;
-    padding-bottom: 124px;
+    padding-top: 118px;
+    padding-bottom: 118px;
 }
 
 /*$image box*/
@@ -69,4 +69,18 @@ ol {
 
 .u-text-italic {
     font-style: italic;
+}
+
+.social-list {
+    display: flex;
+    gap: 20px;
+}
+
+.social-list svg {
+    width: 44px !important;
+    height: 44px !important;
+}
+
+.about-social-container svg path {
+    fill: var(--accent-color)
 }
