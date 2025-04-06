@@ -1,13 +1,22 @@
 ---
-
-let { title, description, icon } = Astro.props;
-
+let { title, description, iconUrl } = Astro.props;
 ---
 
 <div class="services-card">
-    <slot />
+    <svg
+        width="48"
+        height="48"
+        viewBox="0 0 48 48"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        role="img"
+        aria-hidden="true"
+        focusable="false"
+    >
+        <use href={iconUrl}></use>
+    </svg>
     <div class="services-card-info">
-        <h3 class="subtitle">{ title }</h3>
-        <p class="main-paragraph">{ description }</p>
+        <h3 class="subtitle">{title}</h3>
+        <p class="main-paragraph">{description}</p>
     </div>
 </div>

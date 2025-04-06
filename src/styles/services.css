@@ -35,8 +35,8 @@
     gap: 20px;
 }
 
-.services-card svg path {
-    stroke: var(--accent-color);
+.services-card svg {
+    color: var(--accent-color);
 }
 
 .services-card svg {

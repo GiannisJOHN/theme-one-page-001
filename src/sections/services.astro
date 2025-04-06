@@ -1,7 +1,7 @@
 ---
 import servicesData from '../data/services.json';
 import ServicesCard from '../components/services-card.astro';
-import Icon from '../components/icon.astro'
+
 
 
 
@@ -15,15 +15,10 @@ import Icon from '../components/icon.astro'
         <div class="services-grid-3-columns">
             {
                 servicesData.map((each) => {
-                    let icons = {
-                        iconA: <Icon />
-                    }
 
                     return (
                         <>
-                            <ServicesCard  title={each.title} description={each.description}>
-                                {icons['iconA']}
-                            </ServicesCard>
+                            <ServicesCard  title={each.title} description={each.description} iconUrl={each.icon} />
                         </>
                     )
                     
