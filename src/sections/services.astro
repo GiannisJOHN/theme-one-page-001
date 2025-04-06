@@ -1,17 +1,32 @@
 ---
 import servicesData from '../data/services.json';
 import ServicesCard from '../components/services-card.astro';
+import Icon from '../components/icon.astro'
+
+
 
 ---
 
 
 <section id="services-section" class="services-section section side-padding section-vertical-spacing">
     <div class="container">
+
         <h2 class="section-title u-text-center">My Services</h2>
         <div class="services-grid-3-columns">
             {
                 servicesData.map((each) => {
-                    return <ServicesCard title={each.title} description={each.description} />
+                    let icons = {
+                        iconA: <Icon />
+                    }
+
+                    return (
+                        <>
+                            <ServicesCard  title={each.title} description={each.description}>
+                                {icons['iconA']}
+                            </ServicesCard>
+                        </>
+                    )
+                    
                 })
             }
         </div>

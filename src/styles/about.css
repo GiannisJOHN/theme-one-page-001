@@ -32,3 +32,6 @@
     margin-top: 80px;
 }
 
+.social-list svg {
+    color: var(--accent-color);
+}
