@@ -14,15 +14,19 @@ import '../styles/footer.css'
 
 import Navbar from '../sections/navbar.astro';
 import Footer from '../sections/footer.astro';
+
+
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang={Astro.props.meta.lang}>
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
+		<meta name="description" content={Astro.props.meta.description}>
+
 		<title>Astro</title>
 	</head>
 	<body>

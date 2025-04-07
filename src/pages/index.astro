@@ -1,17 +1,26 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Hero from '../sections/hero.astro';
-import About from '../sections/about.astro';
-import Services from '../sections/services.astro';
-import Skills from '../sections/skills.astro';
-import Achievements from '../sections/achievements.astro';
-import Newsletter from '../sections/newsletter.astro';
-import Testimonials from '../sections/testimonials.astro';
-import Contact from '../sections/contact.astro';
+import Layout from '@/layouts/Layout.astro';
+import Hero from '@/sections/hero.astro';
+import About from '@/sections/about.astro';
+import Services from '@/sections/services.astro';
+import Skills from '@/sections/skills.astro';
+import Achievements from '@/sections/achievements.astro';
+import Newsletter from '@/sections/newsletter.astro';
+import Testimonials from '@/sections/testimonials.astro';
+import Contact from '@/sections/contact.astro';
+
+//data
+
+import { localesData } from '@/locales/locales-data-aggregator';
+//localesData['en'].meta or localesData['en'].ui or localesData['en'].content.about
+
+const locale = 'en'
+
+const meta = localesData[locale].meta
 
 ---
 
-<Layout>
+<Layout meta={meta}>
     <Hero />
     <About />
     <Services />
