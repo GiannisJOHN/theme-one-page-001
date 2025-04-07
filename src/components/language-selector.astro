@@ -5,32 +5,37 @@
 
 
 <div class="languages-selector">
-    <button class="btn">
+    <button id="langSelectButton" class="btn" type="button" 
+    aria-expanded="false"
+    aria-controls="langSelectMenu"
+    aria-haspopup="true"
+    aria-label="select language"
+    >
         <svg class="icon-globe" width="32" height="32" role="img" aria-hidden="true" focusable="false">
             <use href="/languages-sprite.svg#icon-globe"></use>
         </svg>
         <span>languages</span>
     </button>
-    <div class="languages-list-container">
+    <div class="languages-list-container" id="langSelectMenu" role="menu" aria-hidden="true" aria-describedby="langSelectButton">
         <ul>
-            <li>
-                <a href="/">
+            <li role="none">
+                <a href="/" role="menuitem" aria-selected="true">
                     <svg width="20" height="20" role="img" aria-hidden="true" focusable="false">
                         <use href="/languages-sprite.svg#icon-en"></use>
                     </svg>
                    <span>English</span>
                 </a>
             </li>
-            <li>
-                <a href="/el">
+            <li role="none">
+                <a href="/el" role="menuitem" aria-selected="false">
                     <svg width="20" height="20" role="img" aria-hidden="true" focusable="false">
                         <use href="/languages-sprite.svg#icon-el"></use>
                     </svg>
                    <span>Greek</span>
                 </a>
             </li>
-            <li>
-                <a href="/de">
+            <li role="none">
+                <a href="/de" role="menuitem" aria-selected="false">
                     <svg width="20" height="20" role="img" aria-hidden="true" focusable="false">
                         <use href="/languages-sprite.svg#icon-de"></use>
                     </svg>
