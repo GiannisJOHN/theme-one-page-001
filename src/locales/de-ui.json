@@ -1,0 +1,35 @@
+{
+    "nav": {
+        "home": "Home",
+        "about": "Über uns",
+        "services": "Dienstleistungen",
+        "contact": "Kontakt"
+    },
+    "buttons": {
+        "learnMore": "Mehr erfahren",
+        "getStarted": "Loslegen",
+        "submit": "Absenden",
+        "send": "Nachricht senden"
+    },
+    "form": {
+        "name": "Ihr Name",
+        "email": "Ihre E-Mail",
+        "message": "Ihre Nachricht",
+        "placeholderName": "Geben Sie Ihren vollständigen Namen ein",
+        "placeholderEmail": "Geben Sie Ihre E-Mail-Adresse ein",
+        "placeholderMessage": "Schreiben Sie hier Ihre Nachricht...",
+        "success": "Vielen Dank! Ihre Nachricht wurde gesendet.",
+        "error": "Hoppla! Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut."
+    },
+    "footer": {
+        "copyright": "© 2025 Amazing Gadgets",
+        "rights": "Alle Rechte vorbehalten.",
+        "privacy": "Datenschutzrichtlinie",
+        "terms": "Nutzungsbedingungen"
+    },
+    "languageSelector": {
+        "label": "Sprache",
+        "english": "Englisch",
+        "greek": "Griechisch"
+    }
+}

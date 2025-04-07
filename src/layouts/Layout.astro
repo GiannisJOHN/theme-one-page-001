@@ -26,12 +26,11 @@ import Footer from '../sections/footer.astro';
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
 		<meta name="description" content={Astro.props.meta.description}>
-
 		<title>Astro</title>
 	</head>
 	<body>
 		<Navbar />
-		<slot />
+			<slot />
 		<Footer />
 	</body>
 </html>

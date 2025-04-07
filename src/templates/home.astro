@@ -1,5 +1,5 @@
 ---
-import Layout from "@/layouts/Layout.astro";
+import Layout from "@/layouts/layout.astro";
 import Hero from "@/sections/hero.astro";
 import About from "@/sections/about.astro";
 import Services from "@/sections/services.astro";
@@ -11,19 +11,12 @@ import Contact from "@/sections/contact.astro";
 
 //data
 import { localesData } from "@/locales/locales-data-aggregator";
-  //localesData['en'].meta or localesData['en'].ui or localesData['en'].content.about
+//localesData['en'].meta or localesData['en'].ui or localesData['en'].content.about
 
 
-/*i18n*/
-export async function getStaticPaths() {
-  return [{ params: { locale: "el" } }];
-}
-const locale = Astro.params.locale;
-/*i18n*/
-
+const locale = Astro.props.lang;
 
 const meta = localesData[locale].meta;
-
 ---
 
 <Layout meta={meta}>
