@@ -31,6 +31,6 @@ import Footer from '../sections/footer.astro';
 	<body>
 		<Navbar data={Astro.props.ui} />
 			<slot />
-		<Footer />
+		<Footer data={Astro.props.ui} />
 	</body>
 </html>

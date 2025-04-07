@@ -1,3 +1,11 @@
+---
+let data = Astro.props.data
+let year = new Date().getFullYear();
+
+
+---
+
+
 <footer class="section side-padding">
     <div class="container footer-container">
         <div class="logo-footer">
@@ -5,19 +13,19 @@
         </div>
         <ul class="nav-list">
             <li>
-                <a href="" class="navbar-links">HOME</a>
+                <a href="" class="navbar-links">{data.nav.home}</a>
             </li>
             <li>
-                <a href="" class="navbar-links">ABOUT</a>
+                <a href="" class="navbar-links">{data.nav.about}</a>
             </li>
             <li>
-                <a href="" class="navbar-links">SERVICES</a>
+                <a href="" class="navbar-links">{data.nav.services}</a>
             </li>
             <li>
-                <a href="" class="navbar-links">CONTACT</a>
+                <a href="" class="navbar-links">{data.nav.contact}</a>
             </li>
         </ul>
         <hr>
-        <p>all rights reserved &copy; 2025</p>
+        <p>{ data.footer.rights } &copy; { year }</p>
     </div>
 </footer>

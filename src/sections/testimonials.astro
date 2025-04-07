@@ -1,15 +1,16 @@
 ---
-import testimonialsData from '../data/testimonials.json';
 import TestimonialsCard from '../components/testimonials-card.astro';
+
+let data = Astro.props.content.testimonials
 
 ---
 
 <section id="testimonials-section" class="testimonials-section section side-padding section-vertical-spacing">
     <div class="container">
-        <h2 class="section-title u-text-center">Testimonials</h2>
+        <h2 class="section-title u-text-center">{ data.title }</h2>
         <div class="testimonials-grid-2-columns">
             {
-                testimonialsData.map((each) => {
+                data.list.map((each) => {
                     return <TestimonialsCard name={each.name} jobTitle={each.jobTitle} description={each.description} />
                 })
             }

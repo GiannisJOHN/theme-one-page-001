@@ -8,16 +8,11 @@
     "form": {
         "name": "Your Name",
         "email": "Your Email",
+        "phone": "Your Phone",
         "message": "Your Message",
-        "placeholderName": "Enter your full name",
-        "placeholderEmail": "Enter your email address",
-        "placeholderMessage": "Write your message here...",
-        "success": "Thank you! Your message has been sent.",
-        "error": "Oops! Something went wrong. Please try again.",
         "button": "Send Message"
     },
     "footer": {
-        "copyright": "© 2025 Amazing Gadgets",
         "rights": "All rights reserved.",
         "privacy": "Privacy Policy",
         "terms": "Terms of Service"

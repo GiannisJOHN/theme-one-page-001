@@ -14,15 +14,11 @@
     "form": {
         "name": "Ihr Name",
         "email": "Ihre E-Mail",
+        "phone": "Ihre Telefonnummer",
         "message": "Ihre Nachricht",
-        "placeholderName": "Geben Sie Ihren vollständigen Namen ein",
-        "placeholderEmail": "Geben Sie Ihre E-Mail-Adresse ein",
-        "placeholderMessage": "Schreiben Sie hier Ihre Nachricht...",
-        "success": "Vielen Dank! Ihre Nachricht wurde gesendet.",
-        "error": "Hoppla! Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut."
+        "button": "Nachricht senden"
     },
     "footer": {
-        "copyright": "© 2025 Amazing Gadgets",
         "rights": "Alle Rechte vorbehalten.",
         "privacy": "Datenschutzrichtlinie",
         "terms": "Nutzungsbedingungen"

@@ -104,7 +104,8 @@
         ]
     },
     "contact": {
+        "title": "Contact",
         "phone": "Phone Number",
-        "e-mail": "E-mail"
+        "email": "E-mail"
     }
 }

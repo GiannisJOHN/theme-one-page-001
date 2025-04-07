@@ -1,4 +1,7 @@
+---
+let data = Astro.props.content.newsletter
 
+---
 
 
 <section id="newsletter-section" class="newsletter-section section side-padding section-vertical-spacing">
@@ -6,16 +9,16 @@
         <div class="newsletter-grid-2-columns">
             <div>
                 <h2 class="section-title">
-                    Subscribe to my newsletter
+                    { data.title }
                 </h2>
                 <p class="main-paragraph">
-                    Opportunities are never lost, they are just missed by those who don’t act.
+                    { data.paragraph }
                 </p>
             </div>
             <div class="newsletter-form-container">
                 <form action="#" method="post" class="newsletter-form">
-                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
-                    <button type="submit">Subscribe</button>
+                    <input type="email" id="email" name="email" placeholder={ data.placeholder } required>
+                    <button type="submit">{ data.button }</button>
                 </form>
             </div>
         </div>
