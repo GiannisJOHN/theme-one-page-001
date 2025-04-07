@@ -1,23 +1,25 @@
-<section id="achievements-section" class="achievements-section section side-padding">
+---
+let data = Astro.props.content.achievements;
+---
+
+<section
+    id="achievements-section"
+    class="achievements-section section side-padding"
+>
     <div class="container achievements-container">
-        <div class="achievements-box">
-            <h3 class="section-title">200+</h3>
-            <p class="main-paragraph">Happy Clients Served</p>
-        </div>
-        <div class="achievements-box-line"></div>
-        <div class="achievements-box">
-            <h3 class="section-title">150+</h3>
-            <p class="main-paragraph">Successful Projects Completed</p>
-        </div>
-        <div class="achievements-box-line"></div>
-        <div class="achievements-box">
-            <h3 class="section-title">10+ Years</h3>
-            <p class="main-paragraph">Industry Experience</p>
-        </div>
-        <div class="achievements-box-line"></div>
-        <div class="achievements-box">
-            <h3 class="section-title">98%</h3>
-            <p class="main-paragraph">Client Satisfaction Rate</p>
-        </div>
+        {
+            data.map((each, index, array) => {
+                return (
+                    <>
+                        <div class="achievements-box">
+                            <h3 class="section-title">{ each.title }</h3>
+                            <p class="main-paragraph">{ each.info }</p>
+                        </div>
+                        {index <= array.length - 2 ? <div class="achievements-box-line"></div> : ''}
+                    </>
+                );
+            })
+        }
+        
     </div>
 </section>

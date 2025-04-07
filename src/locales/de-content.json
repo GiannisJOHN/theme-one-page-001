@@ -1,0 +1,110 @@
+{
+    "home": {
+        "title": "Hallo, ich bin Markus, ein Berater",
+        "button": "Über mich"
+    },
+    "about": {
+        "pretitle": "Über mich",
+        "title": "Erfolg durch kompetente Beratung",
+        "paragraph": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio consectetur tempora hic eos, quibusdam dignissimos suscipit eaque excepturi vitae, repudiandae sunt odit temporibus ex placeat officia commodi! Earum, nemo dolores."
+    },
+    "services": {
+        "title": "Meine Dienstleistungen",
+        "list": [
+            {
+                "title": "Entwicklung von Geschäftsstrategien",
+                "description": "Ich helfe Unternehmen dabei, langfristige Strategien zu entwickeln, die mit ihren Zielen übereinstimmen und Wachstum sowie Nachhaltigkeit optimieren.",
+                "icon": "/business-icons-sprite.svg#icon-data-file-edit"
+            },
+            {
+                "title": "Marktforschung & Analyse",
+                "description": "Ich biete umfassende Marktforschung an, um Kundenbedürfnisse, Branchentrends und den Wettbewerb besser zu verstehen.",
+                "icon": "/business-icons-sprite.svg#icon-customer-relationship-management"
+            },
+            {
+                "title": "Finanzplanung & -management",
+                "description": "Ich unterstütze Unternehmen bei der effektiven Verwaltung ihrer Finanzen – von Budgetierung über Prognosen bis hin zur Identifizierung von Einsparpotenzialen.",
+                "icon": "/business-icons-sprite.svg#icon-monetization-idea"
+            },
+            {
+                "title": "Markenentwicklung & Identitätsdesign",
+                "description": "Ich helfe Unternehmen dabei, ihr Markenimage durch visuelle Identität, Botschaften und Positionierung zu entwickeln und zu stärken.",
+                "icon": "/business-icons-sprite.svg#icon-performance-user-graph"
+            },
+            {
+                "title": "Prozessoptimierung & Effizienzsteigerung",
+                "description": "Ich identifiziere Bereiche im Unternehmen, in denen Prozesse verbessert oder effizienter gestaltet werden können.",
+                "icon": "/business-icons-sprite.svg#icon-pie-line-graph-desktop"
+            },
+            {
+                "title": "Führungskräfte- & Teamentwicklung",
+                "description": "Ich biete Schulungen und Mentoring für Führungskräfte und Teams an, um Kommunikation, Zusammenarbeit und Leistung zu verbessern.",
+                "icon": "/business-icons-sprite.svg#icon-seo-search-graph-first-place"
+            }
+        ]
+    },
+    "skills": {
+        "title": "Meine Kernkompetenzen",
+        "paragraph": "Mit einer Leidenschaft für Problemlösung und strategisches Denken bringe ich eine einzigartige Kombination aus Erfahrung und Fachwissen mit, um Unternehmen beim Wachstum zu unterstützen. Hier sind einige meiner wichtigsten Fähigkeiten:",
+        "list": [
+            "Strategische Planung",
+            "Unternehmensberatung",
+            "Marktanalyse",
+            "Führungskräfte-Coaching"
+        ],
+        "button": "Kontakt aufnehmen"
+    },
+    "achievements": [
+        {
+            "title": "200+",
+            "info": "Zufriedene Kunden"
+        },
+        {
+            "title": "150+",
+            "info": "Erfolgreiche Projekte"
+        },
+        {
+            "title": "10+ Jahre",
+            "info": "Branchenerfahrung"
+        },
+        {
+            "title": "98%",
+            "info": "Kundenzufriedenheit"
+        }
+    ],
+    "newsletter": {
+        "title": "Abonniere meinen Newsletter",
+        "paragraph": "Gelegenheiten gehen nie verloren, sie werden nur von denen verpasst, die nicht handeln.",
+        "button": "Abonnieren",
+        "placeholder": "E-Mail-Adresse eingeben"
+    },
+    "testimonials": {
+        "title": "Kundenbewertungen",
+        "list": [
+            {
+                "name": "Sarah Johnson",
+                "jobTitle": "CEO, Tech Innovators",
+                "description": "Die Zusammenarbeit mit diesem Berater hat uns geholfen, unsere Abläufe zu optimieren und exponentiell zu wachsen. Ihre Erkenntnisse waren von unschätzbarem Wert."
+            },
+            {
+                "name": "Michael Lee",
+                "jobTitle": "Marketing-Direktor, Bright Ideas Corp.",
+                "description": "Die Strategien, die wir aus unseren Sitzungen mit dem Berater umgesetzt haben, haben unser Online-Engagement um über 40 % gesteigert. Sehr zu empfehlen!"
+            },
+            {
+                "name": "Emily Turner",
+                "jobTitle": "Betriebsleiterin, Global Solutions",
+                "description": "Ihre Herangehensweise an Problemlösungen ist effizient und praxisorientiert. Die Ergebnisse sprechen für sich – unser Team arbeitet jetzt besser als je zuvor."
+            },
+            {
+                "name": "David Brown",
+                "jobTitle": "Gründer, Creative Horizons",
+                "description": "Der Berater hat uns geholfen, unser Geschäftsmodell zu verfeinern und die Kundenbeziehungen zu verbessern. Wir haben sofortige Verbesserungen in der Kundenzufriedenheit gesehen."
+            }
+        ]
+    },
+    "contact": {
+        "phone": "Telefonnummer",
+        "e-mail": "E-Mail"
+    }
+}

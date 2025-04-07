@@ -1,0 +1,110 @@
+{
+    "home": {
+        "title": "Hi, I am Markus a consultant",
+        "button": "About me"
+    },
+    "about": {
+        "pretitle": "About",
+        "title": "Empowering Your Success with Expert Guidance",
+        "paragraph": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio consectetur tempora hic eos, quibusdam dignissimos suscipit eaque excepturi vitae, repudiandae sunt odit temporibus ex placeat officia commodi! Earum, nemo dolores."
+    },
+    "services": {
+        "title": "My Services",
+        "list": [
+            {
+                "title": "Business Strategy Development",
+                "description": "Help businesses create long-term strategies that align with their goals, optimizing growth and sustainability.",
+                "icon": "/business-icons-sprite.svg#icon-data-file-edit"
+            },
+            {
+                "title": "Market Research & Analysis",
+                "description": "Provide in-depth market research to understand customer needs, industry trends, and competition.",
+                "icon": "/business-icons-sprite.svg#icon-customer-relationship-management"
+            },
+            {
+                "title": "Financial Planning & Management",
+                "description": "Assist companies in managing their finances effectively, including budgeting, forecasting, and identifying cost-saving opportunities.",
+                "icon": "/business-icons-sprite.svg#icon-monetization-idea"
+            },
+            {
+                "title": "Branding & Identity Development",
+                "description": "Help businesses create and enhance their brand image through visual identity, messaging, and positioning.",
+                "icon": "/business-icons-sprite.svg#icon-performance-user-graph"
+            },
+            {
+                "title": "Process Optimization & Efficiency",
+                "description": "Identify areas within a business where processes can be improved or streamlined.",
+                "icon": "/business-icons-sprite.svg#icon-pie-line-graph-desktop"
+            },
+            {
+                "title": "Leadership & Team Development",
+                "description": "Provide training and mentorship to leaders and teams to improve communication, collaboration, and performance.",
+                "icon": "/business-icons-sprite.svg#icon-seo-search-graph-first-place"
+            }
+        ]
+    },
+    "skills": {
+        "title": "My Core Expertise",
+        "paragraph": "With a passion for problem-solving and strategic thinking, I bring a unique blend of experience and expertise to help businesses grow. Here are some of my key skills:",
+        "list": [
+            "Strategic Planning",
+            "Business Consulting",
+            "Market Analysis",
+            "Leadership Coaching"
+        ],
+        "button": "Get in Touch"
+    },
+    "achievements": [
+        {
+            "title": "200+",
+            "info": "Happy Clients Served"
+        },
+        {
+            "title": "150+",
+            "info": "Successful Projects Completed"
+        },
+        {
+            "title": "10+ Years",
+            "info": "Industry Experience"
+        },
+        {
+            "title": "98%",
+            "info": "Client Satisfaction Rate"
+        }
+    ],
+    "newsletter": {
+        "title": "Subscribe to my newsletter",
+        "paragraph": "Opportunities are never lost, they are just missed by those who don’t act.",
+        "button": "Subscribe",
+        "placeholder": "Enter your email"
+    },
+    "testimonials": {
+        "title": "Testimonials",
+        "list": [
+            {
+                "name": "Sarah Johnson",
+                "jobTitle": "CEO, Tech Innovators",
+                "description": "Working with this consultant helped us streamline our operations and grow exponentially. Their insights were invaluable."
+            },
+            {
+                "name": "Michael Lee",
+                "jobTitle": "Marketing Director, Bright Ideas Corp.",
+                "description": "The strategies we implemented from our sessions with the consultant increased our online engagement by over 40%. Highly recommend!"
+            },
+            {
+                "name": "Emily Turner",
+                "jobTitle": "Operations Manager, Global Solutions",
+                "description": "Their approach to problem-solving is efficient and practical. The results speak for themselves – our team is now performing better than ever."
+            },
+            {
+                "name": "David Brown",
+                "jobTitle": "Founder, Creative Horizons",
+                "description": "The consultant helped us refine our business model and improve client relations. We saw immediate improvements in our customer satisfaction."
+            }
+        ]
+    },
+    "contact": {
+        "phone": "Phone Number",
+        "e-mail": "E-mail"
+    }
+}

@@ -1,104 +1,110 @@
 {
     "home": {
-        "title": "Hi, I am Markus a consultant",
-        "button": "About me"
+        "title": "Γεια, είμαι ο Μάρκος, ένας σύμβουλος",
+        "button": "Σχετικά με εμένα"
     },
     "about": {
-        "pretitle": "About",
-        "title": "Empowering Your Success with Expert Guidance",
+        "pretitle": "Σχετικά",
+        "title": "Ενισχύοντας την Επιτυχία σας με Εξειδικευμένη Καθοδήγηση",
         "paragraph": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio consectetur tempora hic eos, quibusdam dignissimos suscipit eaque excepturi vitae, repudiandae sunt odit temporibus ex placeat officia commodi! Earum, nemo dolores."
     },
-    "services": [
-        {
-            "title": "Business Strategy Development",
-            "description": "Help businesses create long-term strategies that align with their goals, optimizing growth and sustainability.",
-            "icon": "/business-icons-sprite.svg#icon-data-file-edit"
-        },
-        {
-            "title": "Market Research & Analysis",
-            "description": "Provide in-depth market research to understand customer needs, industry trends, and competition.",
-            "icon": "/business-icons-sprite.svg#icon-customer-relationship-management"
-        },
-        {
-            "title": "Financial Planning & Management",
-            "description": "Assist companies in managing their finances effectively, including budgeting, forecasting, and identifying cost-saving opportunities.",
-            "icon": "/business-icons-sprite.svg#icon-monetization-idea"
-        },
-        {
-            "title": "Branding & Identity Development",
-            "description": "Help businesses create and enhance their brand image through visual identity, messaging, and positioning.",
-            "icon": "/business-icons-sprite.svg#icon-performance-user-graph"
-        },
-        {
-            "title": "Process Optimization & Efficiency",
-            "description": "Identify areas within a business where processes can be improved or streamlined.",
-            "icon": "/business-icons-sprite.svg#icon-pie-line-graph-desktop"
-        },
-        {
-            "title": "Leadership & Team Development",
-            "description": "Provide training and mentorship to leaders and teams to improve communication, collaboration, and performance.",
-            "icon": "/business-icons-sprite.svg#icon-seo-search-graph-first-place"
-        }
-    ],
-    "skills": {
-        "title": "My Core Expertise",
-        "paragraph": "With a passion for problem-solving and strategic thinking, I bring a unique blend of experience and expertise to help businesses grow. Here are some of my key skills:",
+    "services": {
+        "title": "Οι Υπηρεσίες μου",
         "list": [
-            "Strategic Planning",
-            "Business Consulting",
-            "Market Analysis",
-            "Leadership Coaching"
+            {
+                "title": "Ανάπτυξη Επιχειρηματικής Στρατηγικής",
+                "description": "Βοηθώ τις επιχειρήσεις να δημιουργήσουν μακροπρόθεσμες στρατηγικές που ευθυγραμμίζονται με τους στόχους τους, βελτιστοποιώντας την ανάπτυξη και τη βιωσιμότητα.",
+                "icon": "/business-icons-sprite.svg#icon-data-file-edit"
+            },
+            {
+                "title": "Έρευνα & Ανάλυση Αγοράς",
+                "description": "Παρέχω εις βάθος έρευνα αγοράς για την κατανόηση των αναγκών των πελατών, των τάσεων του κλάδου και του ανταγωνισμού.",
+                "icon": "/business-icons-sprite.svg#icon-customer-relationship-management"
+            },
+            {
+                "title": "Οικονομικός Προγραμματισμός & Διαχείριση",
+                "description": "Βοηθώ τις εταιρείες να διαχειριστούν αποτελεσματικά τα οικονομικά τους, περιλαμβάνοντας τη δημιουργία προϋπολογισμών, τις προβλέψεις και τον εντοπισμό ευκαιριών εξοικονόμησης.",
+                "icon": "/business-icons-sprite.svg#icon-monetization-idea"
+            },
+            {
+                "title": "Ανάπτυξη Μάρκας & Ταυτότητας",
+                "description": "Βοηθώ τις επιχειρήσεις να δημιουργήσουν και να ενισχύσουν την εικόνα της μάρκας τους μέσω οπτικής ταυτότητας, μηνυμάτων και στρατηγικής τοποθέτησης.",
+                "icon": "/business-icons-sprite.svg#icon-performance-user-graph"
+            },
+            {
+                "title": "Βελτιστοποίηση Διαδικασιών & Αποδοτικότητα",
+                "description": "Εντοπίζω σημεία μέσα στην επιχείρηση όπου οι διαδικασίες μπορούν να βελτιωθούν ή να απλοποιηθούν.",
+                "icon": "/business-icons-sprite.svg#icon-pie-line-graph-desktop"
+            },
+            {
+                "title": "Ανάπτυξη Ηγεσίας & Ομάδων",
+                "description": "Προσφέρω εκπαίδευση και καθοδήγηση σε ηγέτες και ομάδες για τη βελτίωση της επικοινωνίας, της συνεργασίας και της συνολικής απόδοσης.",
+                "icon": "/business-icons-sprite.svg#icon-seo-search-graph-first-place"
+            }
+        ]
+    },
+    "skills": {
+        "title": "Η Βασική μου Εξειδίκευση",
+        "paragraph": "Με πάθος για την επίλυση προβλημάτων και τη στρατηγική σκέψη, φέρνω έναν μοναδικό συνδυασμό εμπειρίας και γνώσης για να βοηθήσω τις επιχειρήσεις να αναπτυχθούν. Ορισμένες από τις βασικές δεξιότητές μου είναι:",
+        "list": [
+            "Στρατηγικός Σχεδιασμός",
+            "Επιχειρηματική Συμβουλευτική",
+            "Ανάλυση Αγοράς",
+            "Καθοδήγηση Ηγεσίας"
         ],
-        "button": "Get in Touch"
+        "button": "Επικοινωνήστε Μαζί μου"
     },
     "achievements": [
         {
             "title": "200+",
-            "info": "Happy Clients Served"
+            "info": "Ευχαριστημένοι Πελάτες"
         },
         {
             "title": "150+",
-            "info": "Successful Projects Completed"
+            "info": "Επιτυχημένα Έργα"
         },
         {
-            "title": "10+ Years",
-            "info": "Industry Experience"
+            "title": "10+ Χρόνια",
+            "info": "Εμπειρία στον Κλάδο"
         },
         {
             "title": "98%",
-            "info": "Client Satisfaction Rate"
+            "info": "Ποσοστό Ικανοποίησης Πελατών"
         }
     ],
     "newsletter": {
-        "title": "Subscribe to my newsletter",
-        "paragraph": "Opportunities are never lost, they are just missed by those who don’t act.",
-        "button": "Subscribe",
-        "placeholder": "Enter your email"
+        "title": "Εγγραφείτε στο newsletter μου",
+        "paragraph": "Οι ευκαιρίες δεν χάνονται ποτέ, απλώς χάνονται από εκείνους που δεν ενεργούν.",
+        "button": "Εγγραφή",
+        "placeholder": "Εισάγετε το email σας"
     },
-    "testimonials": [
-        {
-            "name": "Sarah Johnson",
-            "jobTitle": "CEO, Tech Innovators",
-            "description": "Working with this consultant helped us streamline our operations and grow exponentially. Their insights were invaluable."
-        },
-        {
-            "name": "Michael Lee",
-            "jobTitle": "Marketing Director, Bright Ideas Corp.",
-            "description": "The strategies we implemented from our sessions with the consultant increased our online engagement by over 40%. Highly recommend!"
-        },
-        {
-            "name": "Emily Turner",
-            "jobTitle": "Operations Manager, Global Solutions",
-            "description": "Their approach to problem-solving is efficient and practical. The results speak for themselves – our team is now performing better than ever."
-        },
-        {
-            "name": "David Brown",
-            "jobTitle": "Founder, Creative Horizons",
-            "description": "The consultant helped us refine our business model and improve client relations. We saw immediate improvements in our customer satisfaction."
-        }
-    ],
+    "testimonials": {
+        "title": "Γνώμες Πελατών",
+        "list": [
+            {
+                "name": "Sarah Johnson",
+                "jobTitle": "CEO, Tech Innovators",
+                "description": "Η συνεργασία με αυτόν τον σύμβουλο μας βοήθησε να απλοποιήσουμε τις λειτουργίες μας και να αναπτυχθούμε εκθετικά. Οι γνώσεις του ήταν ανεκτίμητες."
+            },
+            {
+                "name": "Michael Lee",
+                "jobTitle": "Διευθυντής Μάρκετινγκ, Bright Ideas Corp.",
+                "description": "Οι στρατηγικές που εφαρμόσαμε μετά από τις συνεδρίες μας με τον σύμβουλο αύξησαν τη διαδικτυακή μας αλληλεπίδραση πάνω από 40%. Τον προτείνουμε ανεπιφύλακτα!"
+            },
+            {
+                "name": "Emily Turner",
+                "jobTitle": "Διευθύντρια Λειτουργιών, Global Solutions",
+                "description": "Η προσέγγισή του στην επίλυση προβλημάτων είναι αποδοτική και πρακτική. Τα αποτελέσματα μιλούν από μόνα τους – η ομάδα μας αποδίδει καλύτερα από ποτέ."
+            },
+            {
+                "name": "David Brown",
+                "jobTitle": "Ιδρυτής, Creative Horizons",
+                "description": "Ο σύμβουλος μας βοήθησε να βελτιώσουμε το επιχειρηματικό μας μοντέλο και τις σχέσεις με τους πελάτες. Είδαμε άμεση βελτίωση στην ικανοποίηση των πελατών μας."
+            }
+        ]
+    },
     "contact": {
-        "phone": "Phone Number",
-        "e-mail": "E-mail"
+        "phone": "Τηλέφωνο",
+        "e-mail": "Ηλεκτρονικό Ταχυδρομείο"
     }
 }

@@ -1,12 +1,14 @@
 ---
 import heroImage from '../assets/hero.jpg';
 
+let data = Astro.props.content.home
+
 ---
 
 <section id="hero-section" class="hero section side-padding cover-image-container">
     <div class="container hero-container">
-        <h1 class="hero-title">Hi, I am Markus <br> a consultant</h1>
-        <a class="hero-cta" href="">About Me</a>
+        <h1 class="hero-title">{ data.title }</h1>
+        <a class="hero-cta" href="">{ data.button }</a>
     </div>
     
     <img class="cover-image hero-img" src={heroImage.src} alt="">
