@@ -1,4 +1,8 @@
 ---
+import { getRelativeLocaleUrl } from 'astro:i18n';
+
+let url = getRelativeLocaleUrl(Astro.props.lang);
+
 let data = Astro.props.data
 
 ---
@@ -11,16 +15,19 @@ let data = Astro.props.data
         <div class="navbar-list-container">
             <ul class="nav-list">
                 <li>
-                    <a href="" class="navbar-links">{data.nav.home}</a>
+                    <a href={url} class="navbar-links">{data.nav.home}</a>
                 </li>
                 <li>
-                    <a href="" class="navbar-links">{data.nav.about}</a>
+                    <a href="#about-section" class="navbar-links">{data.nav.about}</a>
                 </li>
                 <li>
-                    <a href="" class="navbar-links">{data.nav.services}</a>
+                    <a href="#services-section" class="navbar-links">{data.nav.services}</a>
                 </li>
                 <li>
-                    <a href="" class="navbar-links">{data.nav.contact}</a>
+                    <a href="#testimonials-section" class="navbar-links">{data.nav.testimonials}</a>
+                </li>
+                <li>
+                    <a href="#contact-section" class="navbar-links">{data.nav.contact}</a>
                 </li>
             </ul>
         </div>

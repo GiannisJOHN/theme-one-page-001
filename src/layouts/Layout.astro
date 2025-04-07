@@ -29,8 +29,8 @@ import Footer from '../sections/footer.astro';
 		<title>Astro</title>
 	</head>
 	<body>
-		<Navbar data={Astro.props.ui} />
+		<Navbar data={Astro.props.ui} lang={Astro.props.meta.lang}/>
 			<slot />
-		<Footer data={Astro.props.ui} />
+		<Footer data={Astro.props.ui} lang={Astro.props.meta.lang}/>
 	</body>
 </html>
