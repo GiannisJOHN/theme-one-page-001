@@ -5,12 +5,6 @@
         "services": "Services",
         "contact": "Contact"
     },
-    "buttons": {
-        "learnMore": "Learn More",
-        "getStarted": "Get Started",
-        "submit": "Submit",
-        "send": "Send Message"
-    },
     "form": {
         "name": "Your Name",
         "email": "Your Email",
@@ -19,7 +13,8 @@
         "placeholderEmail": "Enter your email address",
         "placeholderMessage": "Write your message here...",
         "success": "Thank you! Your message has been sent.",
-        "error": "Oops! Something went wrong. Please try again."
+        "error": "Oops! Something went wrong. Please try again.",
+        "button": "Send Message"
     },
     "footer": {
         "copyright": "© 2025 Amazing Gadgets",

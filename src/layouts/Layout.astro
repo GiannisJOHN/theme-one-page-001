@@ -29,7 +29,7 @@ import Footer from '../sections/footer.astro';
 		<title>Astro</title>
 	</head>
 	<body>
-		<Navbar />
+		<Navbar data={Astro.props.ui} />
 			<slot />
 		<Footer />
 	</body>

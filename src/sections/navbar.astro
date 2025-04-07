@@ -1,4 +1,6 @@
-
+---
+let data = Astro.props.data
+---
 
 <nav class="section side-padding navbar-bgc-color">
     <div class="container navbar-container">
@@ -8,22 +10,18 @@
         <div class="navbar-list-container">
             <ul class="nav-list">
                 <li>
-                    <a href="" class="navbar-links">HOME</a>
+                    <a href="" class="navbar-links">{data.nav.home}</a>
                 </li>
                 <li>
-                    <a href="" class="navbar-links">ABOUT</a>
+                    <a href="" class="navbar-links">{data.nav.about}</a>
                 </li>
                 <li>
-                    <a href="" class="navbar-links">SERVICES</a>
+                    <a href="" class="navbar-links">{data.nav.services}</a>
                 </li>
                 <li>
-                    <a href="" class="navbar-links">CONTACT</a>
+                    <a href="" class="navbar-links">{data.nav.contact}</a>
                 </li>
             </ul>
-            <div>
-
-                <a class="hero-cta" href="" style="padding: 18px 22px;">Contact Me</a>
-            </div>
         </div>
 
     </div>

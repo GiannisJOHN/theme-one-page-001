@@ -14,6 +14,7 @@
     align-items: center;
     gap: 24px;
     font-size: 15px;
+    text-transform: uppercase;
 }
 
 .logo {

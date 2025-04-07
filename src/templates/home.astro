@@ -17,9 +17,10 @@ import { localesData } from "@/locales/locales-data-aggregator";
 const locale = Astro.props.lang;
 
 const meta = localesData[locale].meta;
+const ui = localesData[locale].ui
 ---
 
-<Layout meta={meta}>
+<Layout meta={meta} ui={ui} >
   <Hero />
   <About />
   <Services />
