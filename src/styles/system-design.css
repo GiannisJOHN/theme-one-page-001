@@ -12,6 +12,9 @@
     --grey-text: rgb(128, 128, 128);
     --text-color-black: rgb(22, 22, 22);
 
+    --black-secondary: rgb(32, 32, 32);
+    --black-secondary-hover: rgb(10, 10, 10);
+
 }
 
 .hero-title {

@@ -12,12 +12,18 @@ html {
 a {
     text-decoration: none;
     color: inherit;
+    cursor: pointer;
 }
 
 ul,
 ol {
     list-style-type: none;
     padding: 0;
+}
+
+.btn {
+    all: unset;
+    cursor: pointer;
 }
 
 .container {

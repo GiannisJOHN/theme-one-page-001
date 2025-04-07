@@ -1,5 +1,6 @@
 ---
 import { getRelativeLocaleUrl } from 'astro:i18n';
+import LanguageSelector from '@/components/language-selector.astro';
 
 let url = getRelativeLocaleUrl(Astro.props.lang);
 
@@ -31,6 +32,6 @@ let data = Astro.props.data
                 </li>
             </ul>
         </div>
-
+        <LanguageSelector />
     </div>
 </nav>
