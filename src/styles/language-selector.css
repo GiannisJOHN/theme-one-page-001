@@ -1,9 +1,6 @@
 .languages-selector {
     display: flex;
-    background-color: var(--black-secondary);
-    border-radius: 8px;
     transition: 0.4s;
-    color: rgb(195, 195, 195);
     position: relative;
 }
 
@@ -15,13 +12,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border: none;
+    border-radius: 8px;
+    color: rgb(195, 195, 195);
+    background-color: var(--black-secondary);
     padding: 2px 18px;
     gap: 12px;
     font-size: 16px;
 }
 
 .languages-list-container {
-    display: flex;
+    display: none;
     flex-direction: column;
     gap: 12px;
     width: 120%;
@@ -33,6 +34,10 @@
     border: 1px solid rgb(107, 107, 107);
     padding: 0 8px;
     z-index: 110;
+}
+
+.languages-list-container.show {
+    display: flex;
 }
 
 .languages-list-container a {

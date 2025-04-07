@@ -22,9 +22,10 @@ ol {
 }
 
 .btn {
-    all: unset;
     cursor: pointer;
 }
+
+
 
 .container {
     width: 100%;

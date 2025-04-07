@@ -1,48 +1,180 @@
 ---
 
-
 ---
 
-
 <div class="languages-selector">
-    <button id="langSelectButton" class="btn" type="button" 
-    aria-expanded="false"
-    aria-controls="langSelectMenu"
-    aria-haspopup="true"
-    aria-label="select language"
+    <button
+        id="langSelectButton"
+        class="btn js-btn-lang-selector"
+        type="button"
+        aria-expanded="false"
+        aria-controls="langSelectMenu"
+        aria-haspopup="true"
+        aria-label="select language"
     >
-        <svg class="icon-globe" width="32" height="32" role="img" aria-hidden="true" focusable="false">
+        <svg
+            class="icon-globe"
+            width="32"
+            height="32"
+            role="img"
+            aria-hidden="true"
+            focusable="false"
+        >
             <use href="/languages-sprite.svg#icon-globe"></use>
         </svg>
         <span>languages</span>
     </button>
-    <div class="languages-list-container" id="langSelectMenu" role="menu" aria-hidden="true" aria-describedby="langSelectButton">
+    <div
+        class="languages-list-container js-menu-lang-selector"
+        id="langSelectMenu"
+        role="menu"
+        aria-hidden="true"
+        aria-describedby="langSelectButton"
+    >
         <ul>
             <li role="none">
                 <a href="/" role="menuitem" aria-selected="true">
-                    <svg width="20" height="20" role="img" aria-hidden="true" focusable="false">
+                    <svg
+                        width="20"
+                        height="20"
+                        role="img"
+                        aria-hidden="true"
+                        focusable="false"
+                    >
                         <use href="/languages-sprite.svg#icon-en"></use>
                     </svg>
-                   <span>English</span>
+                    <span>English</span>
                 </a>
             </li>
             <li role="none">
                 <a href="/el" role="menuitem" aria-selected="false">
-                    <svg width="20" height="20" role="img" aria-hidden="true" focusable="false">
+                    <svg
+                        width="20"
+                        height="20"
+                        role="img"
+                        aria-hidden="true"
+                        focusable="false"
+                    >
                         <use href="/languages-sprite.svg#icon-el"></use>
                     </svg>
-                   <span>Greek</span>
+                    <span>Greek</span>
                 </a>
             </li>
             <li role="none">
                 <a href="/de" role="menuitem" aria-selected="false">
-                    <svg width="20" height="20" role="img" aria-hidden="true" focusable="false">
+                    <svg
+                        width="20"
+                        height="20"
+                        role="img"
+                        aria-hidden="true"
+                        focusable="false"
+                    >
                         <use href="/languages-sprite.svg#icon-de"></use>
                     </svg>
-                   <span>German</span>
+                    <span>German</span>
                 </a>
             </li>
         </ul>
     </div>
 </div>
 
+<script>
+    // @ts-nocheck        
+
+    (function () {
+        let menuButton = document.querySelector(".js-btn-lang-selector");
+        let menu = document.querySelector(".js-menu-lang-selector");
+
+        let isOpenSTATE = menuButton.getAttribute("aria-expanded");
+        let menuItems = menu.querySelectorAll('[role="menuitem"]');
+
+        menuButton.addEventListener("click", handleOpenCloseDropdown);
+
+        function handleOpenCloseDropdown() {
+            event.stopPropagation();
+
+
+            let firstLink = menu.querySelectorAll('a')[0];
+
+            if (isOpenSTATE === "false") {
+                open(menu);
+                firstLink.focus()
+            } else {
+                close(menu);
+            }
+        }
+
+        function open(menu) {
+            menu.classList.add("show");
+            isOpenSTATE = "true";
+            menuButton.setAttribute("aria-expanded", isOpenSTATE);
+            menu.setAttribute("aria-hidden", "false");
+        }
+
+        function close(menu) {
+            menu.classList.remove("show");
+            isOpenSTATE = "false";
+            menuButton.setAttribute("aria-expanded", isOpenSTATE);
+            menu.setAttribute("aria-hidden", "true");
+        }
+
+        //on background click
+        document.addEventListener('click', handleCloseDropdown);
+        
+        function handleCloseDropdown(event) {
+            
+
+            if (event.target === menu) {
+                event.stopPropagation()
+            }
+
+            if (event.target === menuButton) {
+                return
+            }
+
+            if (event.target !== menu) {
+                close(menu)
+            }
+        }
+
+        //a11y keyboard events
+        menu.addEventListener("keydown", function (event) {
+            if (event.key === "Escape") {
+                close(this);
+                menuButton.focus();
+            }
+            if (event.key === "Tab") {
+                event.preventDefault();
+            }
+            if (event.key === "Home") {
+                event.preventDefault();
+            }
+            if (event.key === "End") {
+                event.preventDefault();
+            }
+        });
+
+        menuItems.forEach((item, index, items) => {
+            item.addEventListener("keydown", function (event) {
+                if (event.key === "ArrowDown") {
+                    if (index < items.length - 1) {
+                        items[index + 1].focus();
+                    } else {
+                        items[0].focus();
+                    }
+                    event.preventDefault();
+                } else if (event.key === "ArrowUp") {
+                    if (index > 0) {
+                        items[index - 1].focus();
+                    } else {
+                        items[items.length - 1].focus();
+                    }
+                    event.preventDefault();
+                }
+            });
+        });
+
+
+
+    })();
+</script>
