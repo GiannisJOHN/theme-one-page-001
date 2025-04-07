@@ -19,8 +19,6 @@
         "terms": "Terms of Service"
     },
     "languageSelector": {
-        "label": "Language",
-        "english": "English",
-        "greek": "Greek"
+        "ariaLabel": "select language"
     }
 }

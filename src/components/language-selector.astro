@@ -1,5 +1,10 @@
 ---
-
+let data = Astro.props.data
+let selectedLanguage = {
+    "en": "English",
+    "el": "Ελληνικά",
+    "de": "Deutsch"
+}
 ---
 
 <div class="languages-selector">
@@ -10,7 +15,7 @@
         aria-expanded="false"
         aria-controls="langSelectMenu"
         aria-haspopup="true"
-        aria-label="select language"
+        aria-label={ data.ariaLabel }
     >
         <svg
             class="icon-globe"
@@ -22,7 +27,7 @@
         >
             <use href="/languages-sprite.svg#icon-globe"></use>
         </svg>
-        <span>languages</span>
+        <span>{ selectedLanguage[Astro.props.lang] }</span>
     </button>
     <div
         class="languages-list-container js-menu-lang-selector"
@@ -33,7 +38,7 @@
     >
         <ul>
             <li role="none">
-                <a href="/" role="menuitem" aria-selected="true">
+                <a href="/" role="menuitem" aria-selected={Astro.props.lang === 'en' ? true: false}>
                     <svg
                         width="20"
                         height="20"
@@ -47,7 +52,7 @@
                 </a>
             </li>
             <li role="none">
-                <a href="/el" role="menuitem" aria-selected="false">
+                <a href="/el" role="menuitem" aria-selected={Astro.props.lang === 'el' ? true: false}>
                     <svg
                         width="20"
                         height="20"
@@ -57,11 +62,11 @@
                     >
                         <use href="/languages-sprite.svg#icon-el"></use>
                     </svg>
-                    <span>Greek</span>
+                    <span>Ελληνικά</span>
                 </a>
             </li>
             <li role="none">
-                <a href="/de" role="menuitem" aria-selected="false">
+                <a href="/de" role="menuitem" aria-selected={Astro.props.lang === 'de' ? true: false}>
                     <svg
                         width="20"
                         height="20"
@@ -71,7 +76,7 @@
                     >
                         <use href="/languages-sprite.svg#icon-de"></use>
                     </svg>
-                    <span>German</span>
+                    <span>Deutsch</span>
                 </a>
             </li>
         </ul>
