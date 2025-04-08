@@ -3,6 +3,7 @@
     justify-content: space-between;
     padding: 22px 0;
     color: white;
+    position: relative;
 }
 
 .navbar-bgc-color {
@@ -69,6 +70,33 @@
     width: 26px;
     height: 2px;
     border-radius: 2px;
+}
+
+.mobile-nav {
+    display: none;
+    position: absolute;
+    top: calc(100% + 12px);
+    left: 0;
+    width: 100%;
+    background-color: var(--black-secondary);
+    color: white;
+    z-index: 120;
+    padding: 28px;
+    border-radius: 12px;
+}
+
+.mobile-nav.show {
+    display: flex;
+}
+
+.mobile-nav-list {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.mobile-nav-list li:hover {
+    color: var(--accent-color);
 }
 
 @media (max-width: 1038px) {

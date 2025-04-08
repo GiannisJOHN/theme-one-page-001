@@ -46,5 +46,44 @@ let data = Astro.props.data
                 </button>
             </div>
         </div>
+
+        <div class="mobile-nav js-mobile-nav" 
+            id="navbarMobileList"
+            role="menu"
+            aria-hidden="true"
+            aria-describedby="burgerMenu">
+
+            <ul class="mobile-nav-list">
+                <li>
+                    <a href={url} class="navbar-links" role="menuitem">{data.nav.home}</a>
+                </li>
+                <li>
+                    <a href="#about-section" class="navbar-links" role="menuitem">{data.nav.about}</a>
+                </li>
+                <li>
+                    <a href="#services-section" class="navbar-links" role="menuitem">{data.nav.services}</a>
+                </li>
+                <li>
+                    <a href="#testimonials-section" class="navbar-links" role="menuitem">{data.nav.testimonials}</a>
+                </li>
+                <li>
+                    <a href="#contact-section" class="navbar-links" role="menuitem">{data.nav.contact}</a>
+                </li>
+            </ul>
+        </div>
     </div>
 </nav>
+
+
+<script>
+    // @ts-nocheck        
+    import dropdown from '@/js/dropdown.js';
+
+    (function () {
+        let menuButton = document.querySelector(".js-navbar-burger-menu");
+        let menu = document.querySelector(".js-mobile-nav");
+        //
+        dropdown(menuButton, menu)
+
+    })();
+</script>
