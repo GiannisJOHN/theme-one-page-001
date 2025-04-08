@@ -38,3 +38,9 @@
 .testimonials-card-info p {
     color: rgb(106, 106, 106);
 }
+
+@media (max-width: 716px) {
+    .testimonials-grid-2-columns {
+        grid-template-columns: 1fr;
+    }
+}

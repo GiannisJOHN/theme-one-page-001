@@ -74,3 +74,9 @@
     padding: 32px;
     border-radius: 4px;
 }
+
+@media (max-width: 864px) {
+    .contact-info {
+        grid-template-columns: 1fr;
+    }
+}

@@ -33,3 +33,22 @@
 .hero-title {
     width: 60%;
 }
+
+@media (max-width: 850px) {
+    .hero-title {
+        font-size: 65px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 650px) {
+    .hero-title {
+        font-size: 45px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero-container {
+        align-items: center;
+    }
+}

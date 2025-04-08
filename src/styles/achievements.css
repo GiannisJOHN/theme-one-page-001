@@ -6,9 +6,10 @@
     display: flex;
     justify-content: space-between;
     background-color: var(--accent-color);
-    padding: 100px 40px;
+    padding: 118px 48px;
     border-radius: 8px;
 }
+
 
 .achievements-box-line {
     width: 2px;
@@ -16,18 +17,42 @@
     background-color: rgba(255, 255, 255, 0.388);
 }
 
+@media (max-width: 1004px) {
+    .achievements-box-line {
+        display: none;
+    }
+    .achievements-container {
+        display: grid ;
+        gap: 32px;
+        grid-template-columns: 1fr 1fr;
+        padding: 84px 48px;
+    }
+    
+}
+
+@media (max-width: 600px) {
+    .achievements-box-line {
+        display: none;
+    }
+
+    .achievements-container {
+        display: grid ;
+        gap: 32px;
+        grid-template-columns: 1fr;
+        padding: 58px 48px;
+    }
+
+    .achievements-box {
+        text-align: center;
+    }
+}
 
 .achievements-section {
     color: white;
     background-color: var(--accent-color);
 }
 
-.achievements-container {
-    display: flex;
-    justify-content: space-between;
-    padding: 118px 48px;
-    border-radius: 8px;
-}
+
 
 .achievements-box-line {
     width: 2px;
