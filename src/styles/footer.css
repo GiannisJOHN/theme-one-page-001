@@ -23,3 +23,22 @@ footer hr {
     padding-top: 88px;
     padding-bottom: 28px;
 }
+
+.footer-nav-list {
+    display: flex;
+    gap: 38px;
+    font-weight: 400;
+}
+
+.footer-nav-list li:hover {
+    color: var(--accent-color);
+}
+
+@media (max-width: 538px) {
+    .footer-nav-list {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 28;
+    }
+}
