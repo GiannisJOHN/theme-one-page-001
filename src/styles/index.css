@@ -22,6 +22,9 @@ ol {
 }
 
 .btn {
+    background-color: transparent;
+    border: none;
+    font-size: inherit;
     cursor: pointer;
 }
 

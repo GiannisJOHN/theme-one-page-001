@@ -13,25 +13,38 @@ let data = Astro.props.data
         <div class="logo">
             <a href="/">LOGO</a>
         </div>
-        <div class="navbar-list-container">
-            <ul class="nav-list">
-                <li>
-                    <a href={url} class="navbar-links">{data.nav.home}</a>
-                </li>
-                <li>
-                    <a href="#about-section" class="navbar-links">{data.nav.about}</a>
-                </li>
-                <li>
-                    <a href="#services-section" class="navbar-links">{data.nav.services}</a>
-                </li>
-                <li>
-                    <a href="#testimonials-section" class="navbar-links">{data.nav.testimonials}</a>
-                </li>
-                <li>
-                    <a href="#contact-section" class="navbar-links">{data.nav.contact}</a>
-                </li>
-            </ul>
+        <div class="desktop-nav">
+            <div class="navbar-list-container">
+                <ul class="nav-list">
+                    <li>
+                        <a href={url} class="navbar-links">{data.nav.home}</a>
+                    </li>
+                    <li>
+                        <a href="#about-section" class="navbar-links">{data.nav.about}</a>
+                    </li>
+                    <li>
+                        <a href="#services-section" class="navbar-links">{data.nav.services}</a>
+                    </li>
+                    <li>
+                        <a href="#testimonials-section" class="navbar-links">{data.nav.testimonials}</a>
+                    </li>
+                    <li>
+                        <a href="#contact-section" class="navbar-links">{data.nav.contact}</a>
+                    </li>
+                </ul>
+            </div>
+            <LanguageSelector data={ data.languageSelector } lang={ Astro.props.lang } />
+            <div class="burger-container">
+                <button id="burgerMenu" class="btn burger-menu-icon js-navbar-burger-menu"
+                aria-expanded="false"
+                aria-controls="navbarMobileList"
+                aria-label="toggle navigation"
+                aria-haspopup="true">
+                    <div class="burger-menu-line"></div>
+                    <div class="burger-menu-line"></div>
+                    <div class="burger-menu-line"></div>
+                </button>
+            </div>
         </div>
-        <LanguageSelector data={ data.languageSelector } lang={ Astro.props.lang } />
     </div>
 </nav>
